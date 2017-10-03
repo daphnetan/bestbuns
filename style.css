@@ -1,0 +1,14 @@
+.body {
+  background-color:#F7F8F9;
+}
+
+.stickyleft {
+  width:30%;
+  left: 0;
+  height:100%;
+  background-color: #B5CFFC;
+}
+
+.menu-items a:hover {
+color:#F05638;
+}
