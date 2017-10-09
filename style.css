@@ -1,14 +1,266 @@
 .body {
   background-color:#F7F8F9;
+  margin:0;
 }
 
-.stickyleft {
-  width:30%;
-  left: 0;
-  height:100%;
-  background-color: #B5CFFC;
+.main-wrap {
+  overflow:hidden;
+}
+
+h1 {
+  font-family:'Neucha', cursive;
+  font-size: 48px;
+  color: #F05638;
+}
+
+h2 {
+  font-family:'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+p {
+  font-family:'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+/* Main navigation on left */
+.sidebar {
+  width: 30%;
+  min-height: 100%;
+  background-color: rgba(181, 207, 252, .10);
+  float: left;
+  position: absolute;
+  overflow: hidden;
+}
+
+.logo {
+  padding-bottom: 20px;
+}
+
+/* For the content in the navigation */
+.sidebar-content {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 60px;
+}
+
+.shop-info {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.menu-items {
+  padding: 0;
+  font-size: 18px;
+  list-style: none;
+  text-transform: uppercase;
+  line-height: 1.8em;
+  font-weight: bold;
+}
+
+.menu-items a:link {
+  text-decoration: none;
+  color:#000;
 }
 
 .menu-items a:hover {
-color:#F05638;
+  color:#F05638;
+}
+
+.shopping-cart {
+  padding-top:20px;
+}
+
+.content {
+  overflow: hidden;
+  width: 68%;
+  float: right;
+  padding-top: 20px;
+}
+
+/* About text includes first-square and second-square */
+.about-text {
+  display: inline-block;
+  text-align: left;
+  padding: 10px 0 0 140px;
+}
+
+.first-square {
+  width: 300px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  float: left;
+  padding-right: 20px;
+}
+
+.second-square {
+  width: 300px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  float: right;
+}
+
+/* For orientation across the site besides the about page */
+.breadcrumbs {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  color: #9B9B9B;
+  float: left;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+
+/* To hold content for the Menu page */
+.menu-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.menu-title {
+  padding-left: 10px;
+  padding-top:60px;
+  text-align: left;
+}
+
+.menu-description {
+  float: left;
+  width: 300px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.menu-detail img{
+  float: left;
+  padding-left: 80px;
+  width: 450px;
+  height: auto;
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+    float: left;
+    position: absolute;
+    left: auto;
+    padding-top: 100px;
+    display: block;
+}
+
+.product-details {
+  float: left;
+  padding-left: 50px;
+  width: 550px;
+}
+
+.product-name {
+  font-family: 'Neucha', cursive;
+  font-size: 48px;
+  color: #F05638;
+  position: static;
+}
+
+.pricing {
+  font-family:'Neucha', cursive;
+  font-size: 24px;
+  color:#000;
+}
+
+.product-quantity {
+  width: 500px;
+  float: left;
+  display:inline-block;
+}
+
+.shop-title {
+  padding-left: 10px;
+  padding-top: 60px;
+  text-align: left;
+}
+
+/* For the product offering page */
+ul.products li {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  height: auto;
+  padding: 0px 20px 20px 0px;
+}
+
+ul.products a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* For the product offering text across the page */
+ul.products p {
+  display: block;
+  vertical-align: center;
+  text-align: left;
+}
+
+ul.products img{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+ul.products button{
+  background-color: #F05638;
+  color: white;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Neucha', cursive;
+}
+
+/* lemonlav refers to the specific product page example */
+.lemonlav-image {
+  position:absolute;
+  padding-top: 100px;
+}
+
+.lemonlav-content {
+  overflow:visible;
+  height: auto;
+  position: relative;
+  padding-top: 100px;
+  padding-left: 350px;
+}
+
+.lemonlav-name {
+  font-family: 'Neucha', cursive;
+  font-size: 48px;
+  color: #F05638;
+}
+
+.lemonlav-details {
+  width:  400px;
+  float:left;
+}
+
+.lemonlav-pricing {
+  font-family: 'Neucha', cursive;
+  font-size: 24px;
+  position: static;
+  color: #000;
+  padding-top: 150px;
+}
+
+/* Controls choosing quantity and the cart button */
+.lemonlav-count {
+  float: left;
+}
+
+/* This is for Add to Cart button on the specific product page */
+.button {
+  background-color: #F05638;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Neucha', cursive;
 }
